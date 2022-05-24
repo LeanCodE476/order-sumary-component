@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: #e0e8ff;
+}
+
+main {
+  overflow: hidden;
+  border-radius: 1.5rem;
+  margin: 10rem auto;
+  width: 36rem;
+  background-color: white;
+  box-shadow: 20px 20px 90px #bebebe, -20px -20px 90px #ffffff;
+}
+main .hero-img {
+  width: 100%;
+}
+main .container-sumary {
+  text-align: center;
+  padding: 3rem;
+}
+main .container-sumary h1 {
+  color: #1f2f56;
+  font-weight: 800;
+}
+main .container-sumary p {
+  color: #7280a7;
+  padding: 1.5rem 3rem;
+  font-size: 1.3rem;
+}
+main .container-sumary .container-anual-plan {
+  display: flex;
+  background-color: rgba(223, 222, 222, 0.308);
+  padding: 1rem;
+  border-radius: 1rem;
+  height: 5.5rem;
+  position: relative;
+}
+main .container-sumary .container-anual-plan .container-image-headphone img {
+  width: 3.5rem;
+}
+main .container-sumary .container-anual-plan .container-anual {
+  width: 7em;
+  display: flex;
+  flex-direction: column;
+}
+main .container-sumary .container-anual-plan .container-anual h4 {
+  margin-left: 0.6rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+main .container-sumary .container-anual-plan .container-anual p {
+  margin-top: -1rem;
+  margin-left: -2rem;
+  font-size: 1.2rem;
+}
+main .container-sumary .container-anual-plan a {
+  position: absolute;
+  line-height: 3rem;
+  right: 2vh;
+  font-weight: 800;
+  color: #3829e0;
+}
+main .container-sumary .container-anual-plan a:hover {
+  filter: opacity(70%);
+}
+main .container-sumary .proceed-payment-button {
+  cursor: pointer;
+  background-color: #3829e0;
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 0.6rem;
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+main .container-sumary .proceed-payment-button:hover {
+  filter: opacity(70%);
+}
+main .container-sumary h3 {
+  cursor: pointer;
+  margin-top: 3rem;
+  color: #7280a7;
+}
+main .container-sumary h3:hover {
+  color: black;
+}
+
+@media screen and (max-width: 475px) {
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+  }
+
+  main {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
